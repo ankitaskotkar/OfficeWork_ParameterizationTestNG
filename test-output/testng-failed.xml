@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo Portal Automation Suit]">
+  <test thread-count="5" name="Yahoo Portal Automation Test(failed)">
+    <parameter name="password" value="Music#321"/>
+    <parameter name="email" value="ankitaskotkar@gmail.com"/>
+    <classes>
+      <class name="com.NewTest">
+        <methods>
+          <include name="testParameter"/>
+        </methods>
+      </class> <!-- com.NewTest -->
+    </classes>
+  </test> <!-- Yahoo Portal Automation Test(failed) -->
+</suite> <!-- Failed suite [Yahoo Portal Automation Suit] -->
